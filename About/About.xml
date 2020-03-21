@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RBSE Unofficial Royalty Patch</name>
+	<author>Meltup</author>
+
+	<supportedVersions>
+	<li>1.1</li>
+	</supportedVersions>
+	<packageId>Meltup.RBSERoyaltyPatch</packageId>
+	<description>Unofficial patch to make implants from Royalty DLC match the cost and build process from RBSE.</description>
+</ModMetaData>

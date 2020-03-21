@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<!-- PRODUCTION -->
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="BodyPartBionicImperialBase"]</xpath>
+    <value>
+  <ThingDef Name="BodyPartBionicImperialBase" ParentName="BodyPartBase" Abstract="True">
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>BodyPartsBionic</li>
+    </thingCategories>
+ 
+    <tradeTags>
+      <li>ImplantEmpireCommon</li>
+    </tradeTags>
+    <techHediffsTags>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+	
+	    <statBases>
+	        <DeteriorationRate>2.0</DeteriorationRate>
+            <WorkToMake>30000</WorkToMake>
+            <Mass>6</Mass>
+        </statBases>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <!-- <researchPrerequisite>Bionics</researchPrerequisite> -->
+            <recipeUsers>
+                 <li>BionicWorkbench</li>
+            </recipeUsers>
+        </recipeMaker>
+  </ThingDef>
+    </value>
+</Operation>
+
+</Patch>

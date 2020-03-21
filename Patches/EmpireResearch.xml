@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<!-- BASIC IMPLANTS -->
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+             <li>Neuroscience</li>
+        </prerequisites>
+    </value>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/hiddenPrerequisites</xpath>
+</Operation>
+
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="SpecializedLimbs"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+             <li>Bionics</li>
+        </prerequisites>
+    </value>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ResearchProjectDef[defName="SpecializedLimbs"]/hiddenPrerequisites</xpath>
+</Operation>
+
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="CompactWeaponry"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+             <li>Bionics</li>
+        </prerequisites>
+    </value>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ResearchProjectDef[defName="CompactWeaponry"]/hiddenPrerequisites</xpath>
+</Operation>
+
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="VenomSynthesis"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+             <li>Bionics</li>
+        </prerequisites>
+    </value>
+</Operation>
+
+<!-- IMPROVED IMPLANTS -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="ArtificialMetabolism"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+             <li>Bionics</li>
+        </prerequisites>
+    </value>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ResearchProjectDef[defName="ArtificialMetabolism"]/hiddenPrerequisites</xpath>
+</Operation>
+
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="NeuralComputation"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+             <li>Neuroscience</li>
+        </prerequisites>
+    </value>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ResearchProjectDef[defName="NeuralComputation"]/hiddenPrerequisites</xpath>
+</Operation>
+
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="SkinHardening"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+             <li>Bionics</li>
+        </prerequisites>
+    </value>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ResearchProjectDef[defName="SkinHardening"]/hiddenPrerequisites</xpath>
+</Operation>
+
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="HealingFactors"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+             <li>Bionics</li>
+        </prerequisites>
+    </value>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ResearchProjectDef[defName="HealingFactors"]/hiddenPrerequisites</xpath>
+</Operation>
+
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="FleshShaping"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+             <li>Bionics</li>
+        </prerequisites>
+    </value>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ResearchProjectDef[defName="FleshShaping"]/hiddenPrerequisites</xpath>
+</Operation>
+
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="MolecularAnalysis"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+             <li>Bionics</li>
+        </prerequisites>
+    </value>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ResearchProjectDef[defName="MolecularAnalysis"]/hiddenPrerequisites</xpath>
+</Operation>
+
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="CircadianInfluence"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+             <li>Neuroscience</li>
+        </prerequisites>
+    </value>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/ResearchProjectDef[defName="CircadianInfluence"]/hiddenPrerequisites</xpath>
+</Operation>
+
+</Patch>
