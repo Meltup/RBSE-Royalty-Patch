@@ -16,7 +16,7 @@
     <value>
         <costList>
             <Steel>120</Steel>
-            <ComponentIndustrial>10</ComponentIndustrial>
+            <ComponentIndustrial>8</ComponentIndustrial>
         </costList>
     </value>
 </Operation>
@@ -26,7 +26,7 @@
     <value>
         <costList>
             <Steel>120</Steel>
-            <ComponentIndustrial>10</ComponentIndustrial>
+            <ComponentIndustrial>8</ComponentIndustrial>
         </costList>
     </value>
 </Operation>
