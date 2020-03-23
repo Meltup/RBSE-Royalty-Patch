@@ -87,7 +87,7 @@
     <xpath>Defs/ThingDef[defName="Neurocalculator"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>30</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -98,7 +98,7 @@
     <xpath>Defs/ThingDef[defName="LearningAssistant"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>30</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -109,7 +109,7 @@
     <xpath>Defs/ThingDef[defName="GastroAnalyzer"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>30</Plasteel>
             <ComponentSpacer>3</ComponentSpacer>
         </costList>
@@ -120,6 +120,7 @@
     <xpath>Defs/ThingDef[defName="Immunoenhancer"]/costList</xpath>
     <value>
         <costList>
+		    <Gold>5</Gold>
 		    <Silver>20</Silver>
             <Plasteel>20</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
@@ -131,7 +132,7 @@
     <xpath>Defs/ThingDef[defName="Coagulator"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>30</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -142,8 +143,8 @@
     <xpath>Defs/ThingDef[defName="HealingEnhancer"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
-			<Silver>10</Silver>
+		    <Gold>5</Gold>
+			<Silver>20</Silver>
             <Plasteel>20</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -154,7 +155,7 @@
     <xpath>Defs/ThingDef[defName="ToughskinGland"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>30</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -165,7 +166,7 @@
     <xpath>Defs/ThingDef[defName="ToughskinGland"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>30</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -176,7 +177,7 @@
     <xpath>Defs/ThingDef[defName="ArmorskinGland"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>20</Gold>
+		    <Gold>10</Gold>
             <Plasteel>40</Plasteel>
             <ComponentSpacer>6</ComponentSpacer>
         </costList>
@@ -187,7 +188,7 @@
     <xpath>Defs/ThingDef[defName="StoneskinGland"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>20</Gold>
+		    <Gold>10</Gold>
             <Plasteel>50</Plasteel>
             <ComponentSpacer>8</ComponentSpacer>
         </costList>
@@ -198,7 +199,7 @@
     <xpath>Defs/ThingDef[defName="AestheticShaper"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>30</Plasteel>
             <ComponentSpacer>3</ComponentSpacer>
         </costList>
@@ -209,7 +210,7 @@
     <xpath>Defs/ThingDef[defName="AestheticNose"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>20</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
@@ -220,7 +221,7 @@
     <xpath>Defs/ThingDef[defName="LoveEnhancer"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>30</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -231,8 +232,8 @@
     <xpath>Defs/ThingDef[defName="DetoxifierStomach"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
-			<Silver>10</Silver>
+		    <Gold>5</Gold>
+			<Silver>20</Silver>
             <Plasteel>20</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -243,7 +244,7 @@
     <xpath>Defs/ThingDef[defName="ReprocessorStomach"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>30</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -254,7 +255,7 @@
     <xpath>Defs/ThingDef[defName="NuclearStomach"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>30</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -265,8 +266,8 @@
     <xpath>Defs/ThingDef[defName="CircadianAssistant"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
-			<Silver>10</Silver>
+		    <Gold>5</Gold>
+			<Silver>20</Silver>
             <Plasteel>20</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
@@ -277,7 +278,7 @@
     <xpath>Defs/ThingDef[defName="CircadianHalfCycler"]/costList</xpath>
     <value>
         <costList>
-		    <Gold>10</Gold>
+		    <Gold>5</Gold>
             <Plasteel>30</Plasteel>
             <ComponentSpacer>4</ComponentSpacer>
         </costList>
